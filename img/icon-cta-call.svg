@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-cta-call</title>
+    <g id="implementation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Kinderrad-Abo-–-Desktop" transform="translate(-359.000000, -587.000000)">
+            <g id="content" transform="translate(152.000000, 141.000000)">
+                <g id="CTAs" transform="translate(0.000000, 434.000000)">
+                    <g id="cta-call" transform="translate(183.000000, 0.000000)">
+                        <g id="icon-cta-call" transform="translate(24.000000, 12.000000)">
+                            <rect id="wrapper" x="0" y="0" width="23" height="23"></rect>
+                            <path d="M20,19.7464806 C16.3858819,20.6313151 11.8121278,19.1815595 8.31626849,15.6856315 C4.81834483,12.1898214 3.36856886,7.61436213 4.2535928,4 L8.27468622,4 C8.68145514,4 8.92313362,4.34421373 9.01529289,4.74059625 L9.89323899,8.55460942 L7.75502588,10.6510928 C8.34437338,11.7688437 9.14399147,12.860584 10.1401079,13.8584853 C11.1362243,14.8545877 12.2296904,15.6543125 13.3475455,16.2435337 L15.4440584,14.1053507 L19.2581252,14.9832845 C19.6545133,15.0754424 19.9987319,15.3169996 19.9987319,15.7238807 L20,19.7464806 Z" id="Path" fill="#4643EF" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

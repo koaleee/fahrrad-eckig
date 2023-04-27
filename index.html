@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <link rel="icon" href="img/favicon.svg">
+  <title>Fahrrad Rund</title>
+  <link rel="stylesheet" type="text/css" href="https://use.typekit.net/ngr7pyq.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.carousel.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+          integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+<header id="header" class="header">
+  <a href="index.html" class="header__logo">
+    <img src="img/header-logo.svg"/>
+  </a>
+  <a href="#header__nav" class="header__burger">
+    <img src="img/header-burger_menu.svg"/>
+  </a>
+  <nav id="header__nav" class="overlay">
+    <div class="header">
+      <a href="index.html" class="header__logo header__logo-nav">
+        <img src="img/header-logo.svg"/>
+      </a>
+      <a class="header__close" href="#header">
+        <img src="img/header-close.svg"/>
+      </a>
+    </div>
+    <ul id="nav-menu" class="header__nav-menu">
+      <li><a href="verkauf.html">Beratung &amp; Verkauf</a></li>
+      <li><a href="werkstatt.html">Wartung &amp; Reparatur</a></li>
+      <li><a href="lastenrad-leasing.html">Lastenrad-Leasing</a></li>
+      <li><a href="kinderrad-abo.html">Kinderrad-Abo</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <!-- hero -->
+  <section class="hero">
+    <div class="hero__image">
+      <img  src="img/image-hero-mobile.png"
+            srcset="img/image-hero-mobile.png 390w,
+                    img/image-hero-desktop.png 768w"
+            sizes="(max-width: 612px) 390px, 768px"
+      />
+    </div>
+    <div class="hero__content">
+      <h1>
+        Alles <span class="highlight">rund</span><br/>
+        ums <span class="highlight">Fahrrad</span>
+      </h1>
+      <h4>Wir drehen am Rad für dich!</h4>
+      <!-- button -->
+      <a href="#slider" class="cta-button">
+        <span>Jetzt umsatteln</span>
+        <img src="img/icon-cta-arrow-down.svg"/>
+      </a>
+    </div>
+  </section>
+  <!-- intro -->
+  <section class="intro">
+    <div class="intro__image">
+      <img  src="img/image-intro-mobile.png" class="visible__mobile">
+      <img src="img/image-intro-desktop.png" class="visible__desktop">
+    </div>
+    <div class="intro__content">
+      <h4 class="intro__h4">Bei uns geht's rund!</h4>
+      <h2>Flotte Fahrt auf <br />flotten Velos</h2>
+      <p>
+        Singles, Paare oder Familien, Sportbegeisterte, Umweltbewusste oder Naturliebhaber:
+        Wir sind die Zweirad-Spezialisten, die für alle etwas zu bieten haben.<br /><br />
+
+        Ob Kauf oder Leasing, ob regelmäßige Wartung oder punktuelle Beratung, sehen Sie sich unser Angebot an oder
+        nehmen Sie Kontakt mit uns auf.<br /><br />
+
+        Wir sorgen für Mobilität, die Freude macht.
+      </p>
+    </div>
+  </section>
+  <!-- slider container-->
+  <div id="slider" class="owl-carousel">
+    <div class="item">
+      <div class="slide">
+        <div class="slide__image">
+          <img  src="img/slide-image-1-mobile.png"
+                class="visible__mobile" />
+          <img  src="img/slide-image-1-desktop.png"
+                class="visible__desktop" />
+        </div>
+        <div class="slide__content">
+          <h5>Zweirad für <span class="highlight">Einmalige</span></h5>
+          <h4 class="slide__text">Sie wollen ein Fahrrad für alle Tage, <br class="visible__desktop" />stadt- und landtauglich?</h4>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide">
+        <div class="slide__image">
+          <img  src="img/slide-image-2-mobile.png"
+                class="visible__mobile" />
+          <img  src="img/slide-image-2-desktop.png"
+                class="visible__desktop" />
+        </div>
+        <div class="slide__content">
+          <h5>Damit das Rad 
+              <br class="visible__mobile"/>
+              <span class="highlight">rund läuft</span>
+            </h5>
+          <h4 class="slide__text">So sind Sie sicher und lange mit Ihrem Drahtesel unterwegs!</h4>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide">
+        <div class="slide__image">
+          <img  src="img/slide-image-3-mobile.png"
+                class="visible__mobile" />
+          <img  src="img/slide-image-3-desktop.png"
+                class="visible__desktop" />
+        </div>
+        <div class="slide__content">
+          <h5>Kaufen war gestern, <br class="visible__desktop" />
+              jetzt ist <span class="highlight">leasen</span> angesagt!
+            </h5>
+          <h4 class="slide__text">Wählen Sie das jeweils passende <br class="visible__desktop" />
+              Lastenrad für <br class="visible__mobile"/>Ihren Transport.
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide">
+        <div class="slide__image">
+          <img  src="img/slide-image-4-mobile.png"
+                class="visible__mobile" />
+          <img  src="img/slide-image-4-desktop.png"
+                class="visible__desktop" />
+        </div>
+        <div class="slide__content">
+          <h5 class="slide__content-h5">Wenn das Fahrrad <span class="highlight">mitwächst</span></h5>
+          <h4 class="slide__text">So hat Ihr Kind immer <br class="visible__mobile"/>das richtige Rad!</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- services -->
+  <section class="services">
+    <h2>Unsere Services</h2>
+    <div class="services-grid">
+      <a href="verkauf.html" class="services-grid__service">
+        <div class="service-container">
+          <img src="img/icon-verkauf.svg" class="service__icon"/>
+          <span class="highlight services__label">Verkauf</span>
+          <img src="img/service-color-verkauf.svg" class="highlight-color"/>
+        </div>
+      </a>
+      <a href="werkstatt.html" class="services-grid__service">
+        <div class="service-container">
+          <img src="img/icon-werkstatt.svg" class="service__icon"/>
+          <span class="highlight services__label">Werkstatt</span>
+          <img src="img/service-color-werkstatt.svg" class="highlight-color"/>
+        </div>
+      </a>
+      <a href="lastenrad-leasing.html" class="services-grid__service">
+        <div class="service-container">
+          <img src="img/icon-leasing.svg" class="service__icon"/>
+          <span class="highlight services__label">Lastenrad-Leasing</span>
+          <img src="img/service-color-leasing.svg" class="highlight-color"/>
+        </div>
+      </a>
+      <a href="kinderrad-abo.html" class="services-grid__service">
+        <div class="service-container">
+          <img src="img/icon-kinderrad_abo.svg" class="service__icon"/>
+          <span class="highlight services__label">Kinderrad-Abo</span>
+          <img src="img/service-color-kinderrad_abo.svg" class="highlight-color"/>
+        </div>
+      </a>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="footer-wrap">
+    <div class="footer">
+      <!-- services -->
+      <div class="footer-container">
+        <h5>Services</h5>
+        <ul class="footer-list">
+          <li><a href="verkauf.html" class="footer-item">Beratung und Verkauf</a></li>
+          <li><a href="werkstatt.html" class="footer-item">Wartung und Reparatur</a></li>
+          <li><a href="lastenrad-leasing.html" class="footer-item">Lastenrad-Leasing</a></li>
+          <li><a href="kinderrad-abo.html" class="footer-item">Kinderrad-Abo</a></li>
+        </ul>
+      </div>
+      <!-- kontakt -->
+      <div class="footer-container">
+        <h5>Kontakt</h5>
+        <ul class="footer-list">
+          <li>
+            <a href="https://www.google.com/maps" class="footer-item" target="_blank">
+              <img src="img/footer-icon-location.svg" class="footer-item__image"/>
+              Fahrrad Rund OHG<br/>
+              Meisterweg 4<br/>
+              12345 Velostadt
+            </a>
+          </li>
+          <li>
+            <a href="tel:+4910567890" class="footer-item">
+              <img src="img/footer-icon-tel.svg" class="footer-item__image"/>
+              Tel: 010/567890
+            </a>
+          </li>
+          <li>
+            <a href="fax:010567890" class="footer-item">
+              <img src="img/footer-icon-fax.svg" class="footer-item__image"/>
+              Fax: 010/56789-12
+            </a>
+          </li>
+          <li>
+            <a href="mailto:info@fahrradrund.de" class="footer-item">
+              <img src="img/footer-icon-email.svg" class="footer-item__image"/>
+              info@fahrradrund.de
+            </a>
+          </li>
+          <li>
+            <a href="files/W3_W04.pdf" class="footer-item" target="_blank">
+              <img src="img/footer-icon-quote.svg" class="footer-item__image"/>
+              Webformular (W3)
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- zeiten -->
+      <div class="footer-container">
+        <h5>Öffnungszeiten</h5>
+        <table class="opening-hours">
+          <tr>
+            <td>Mo</td>
+            <td>geschlossen</td>
+          </tr>
+          <tr>
+            <td>Di</td>
+            <td>10–13 Uhr, 14–18 Uhr</td>
+          </tr>
+          <tr>
+            <td>Mi</td>
+            <td>10–13 Uhr, 14–18 Uhr</td>
+          </tr>
+          <tr>
+            <td>Do</td>
+            <td>10–13 Uhr, 14–20 Uhr</td>
+          </tr>
+          <tr>
+            <td>Do</td>
+            <td>10–13 Uhr, 14–18 Uhr</td>
+          </tr>
+          <tr>
+            <td>Fr</td>
+            <td>10–13 Uhr, 14–18 Uhr</td>
+          </tr>
+          <tr>
+            <td>Sa</td>
+            <td>10–14 Uhr</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <hr class="footer-separator"/>
+    <div class="footer-meta">
+      <div class="footer-copy">
+        <img src="img/footer-logo.svg"/>
+        <p>
+          &copy; Le Anh Truong, <br class="visible__mobile"/>
+          Abschlussprüfung Mediengestalter 2022 ZFA
+        </p>
+      </div>
+      <ul class="footer-legal">
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="javascript:void(0)">Datenschutz</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- externes Skript: Owl Carousel 2 -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      items: 1,
+      autoplay: true,
+      autoplayTimeout: 5500,
+    });
+  });
+</script>
+</body>
+</html>

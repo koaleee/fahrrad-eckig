@@ -1,0 +1,1062 @@
+/* styleguide */
+:root {
+  --blurple: #4643ef;
+  --tyres: #1a1a18;
+  --asphalt: #858b99;
+  --background: #f7f7f7;
+  --wildflower: #DAD9FC;
+  --lavender: #EFEEFF;
+  --verkauf: #FFF2AB;
+  --werkstatt: #9FD6C3;
+  --leasing: #A9DFF3;
+  --kinderrad: #F7D0DA;
+  --hover: #A2A1F7;
+}
+
+/* ------- RESET ------- */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------- BASE ------- */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a, a:hover, a div, a:hover div, nav, a img, a:hover img  {
+  transition: all 0.25s;
+}
+
+body {
+  background-color: var(--background);
+  margin: 0;
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--tyres);
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+h2, h5 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+h4 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+p {
+  color: var(--asphalt);
+  margin: 20px 0;
+}
+
+main {
+  padding: 0 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  position: relative;
+}
+
+.highlight {
+  color: var(--blurple);
+}
+
+.cta-button {
+  border: 0;
+  margin-top: 48px;
+  padding: 12px 30px;
+  border-radius: 24px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.05), 0 16px 40px 0 rgba(0, 0, 0, 0.15);
+  background-color: var(--blurple);
+  color: #ffffff;
+  font-family: 'futura-pt', sans-serif;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: var(--hover);
+  transform: scale(0.95);
+}
+
+.secondary-button {
+  border: 0;
+  padding: 11px 29px 11px 23px;
+  border: solid 1px var(--blurple);
+  border-radius: 24px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.05), 0 16px 40px 0 rgba(0, 0, 0, 0.15);
+  background-color: var(--lavender);
+  color: var(--blurple);
+  font-family: 'futura-pt', sans-serif;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.secondary-button:hover {
+  background-color: var(--wildflower);
+  transform: scale(0.95);
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 16px;
+  width: fit-content;
+}
+
+.back-link:hover {
+  filter:  brightness(0) opacity(50%);
+  transform: translate(-5px, 0);
+}
+
+.icon__back_link {
+  vertical-align: text-bottom;
+}
+
+.pages__text {
+  margin-top: 16px;
+}
+
+.pages__image {
+  width: 100%;
+  height: auto;
+}
+
+.pages__image img {
+  width: 100%;
+  height: auto;
+}
+
+.visible__desktop {
+  display: none !important;
+}
+
+/* ------- FOOTER ------- */
+footer {
+  background-color: var(--asphalt);
+  color: #ffffff;
+  padding: 60px 40px 40px 40px;
+  font-size: 14px;
+  margin-top: 120px;
+}
+
+footer * {
+  color: #ffffff;
+}
+
+footer h5 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.footer-container ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 1.43;
+  gap: 16px;
+}
+
+.footer-container {
+  margin-bottom: 0;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.footer-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-item img {
+  margin-top: 3px;
+}
+
+.footer-list a:hover {
+  transform: translate(8px, 0);
+}
+
+.footer-separator {
+  margin: 80px 0 32px 0;
+  height: 1px;
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.footer-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-copy {
+  text-align: center;
+}
+
+.footer-copy span {
+  display: none;
+}
+
+.footer-legal {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer-legal a:hover {
+  color: var(--wildflower);
+}
+
+/* ------- HEADER ------- */
+.header {
+  padding: 24px 30px;
+  display: flex;
+  position: relative;
+}
+
+.header__logo {
+  flex-grow: 1;
+  font-size: 0;
+}
+
+.header__logo img {
+  max-height: 32px;
+}
+
+.header__burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo-nav {
+  flex-grow: 1;
+  z-index: 2;
+}
+
+.header__close {
+  z-index: 2;
+  margin: 4px auto;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(217, 217, 252, 0.8);
+}
+
+.overlay:target {
+  display: block;
+}
+
+.header__nav-menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  margin: 0;
+  padding: 90px 0 36px 0;
+  list-style-type: none;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.05), 0 6px 6px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  gap: 24px;
+}
+
+.header__nav-menu li {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* ------- HERO ------- */
+.hero {
+  padding: 34px 0 50px 40px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.hero__image img {
+  width: 100%;
+  height: auto;
+  margin-left: -16px;
+}
+
+.hero .cta-button {
+  padding: 12px 24px 12px 30px;
+  margin-top: 48px;
+  width: fit-content;
+}
+
+/* ------- INTRO ------- */
+.intro__image img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.intro__h4 {
+  margin-bottom: 6px;
+}
+
+/* ------- SLIDER ------- */
+
+#slider {
+  margin-top: -23px;
+}
+
+.owl-carousel .item {
+  height: 100%;
+}
+
+.slide {
+  border-radius: 30px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 109px;
+  padding: 0 15px 96px 15px;
+  height: 100%;
+}
+
+.slide__image {
+  margin-top: -109px;
+}
+
+.slide__image img {
+  max-width: 100%;
+}
+
+.slide * {
+  text-align: center;
+}
+
+.slide__content {
+  min-height: 233px;
+  padding: 0 20px;
+}
+
+.slide__content h5 {
+  margin-bottom: 20px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.slider__pagination {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+}
+
+.owl-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 10px);
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 50px;
+  left: calc(50% - 56px);
+  display: flex;
+  gap: 16px;
+}
+
+.owl-nav button {
+  transition: all 0.25s;
+}
+
+button.owl-next {
+  background-image: url(../img/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+button.owl-prev {
+  background-image: url(../img/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.owl-nav span {
+  display: none;
+}
+
+#slider.owl-carousel button.owl-dot {
+  width: 16px;
+  height: 16px;
+  background: rgba(255, 255, 255, 0);
+  border: 3px solid var(--wildflower);
+  border-radius: 50%;
+}
+
+#slider.owl-carousel button.owl-dot:hover {
+  width: 16px;
+  height: 16px;
+  background: var(--lavender);
+  border: 3px solid var(--wildflower);
+  border-radius: 50%;
+}
+
+#slider.owl-carousel button.owl-dot.active {
+  background-color: var(--wildflower);
+}
+
+.slider__content-h5 {
+  margin: 0 -15px;
+}
+
+.owl-carousel {
+  display: block !important;
+}
+
+/* ------- SERVICES ------- */
+.services {
+  margin-bottom: 60px;
+}
+
+.services h2 {
+  margin-bottom: 32px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.services-grid__service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
+
+.service-container {
+  border-radius: 30px;
+  box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.05), 0 6px 6px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+  overflow: hidden;
+  max-width: 208px;
+  max-height: 208px;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.service-container img {
+  width: 80%;
+  height: auto;
+}
+
+.service-container:hover {
+  box-shadow: 0 0 40px 0 var(--wildflower), 0 8px 8px 0 var(--wildflower);
+  cursor: pointer;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.services__label {
+  margin-bottom: 7px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.services-grid__service .highlight-color {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+/* CTAs KINDERRAD-ABO */
+
+.cta__kinderrad-abo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* VERKAUF */
+
+.cta-verkauf {
+  width: fit-content;
+}
+
+.bike-types {
+  width: 460px;
+  left: 5%;
+  position: relative;
+  margin-top: -80px;
+  z-index: 1;
+}
+
+.main__verkauf {
+  overflow: hidden;
+}
+
+.bike-types__circle {
+  font-weight: 500;
+  line-height: 1.78;
+  background-color: var(--verkauf);
+  border-radius: 50%;
+  height: 224px;
+  width: 320px;
+  text-align: center;
+  padding: 48px 0;
+  position: relative;
+  margin: 60px 0 0 48px;
+}
+
+.bike-types__circle p {
+  color: var(--tyres);
+  margin: 0;
+}
+
+.bike-types__shapes {
+  position: absolute;
+  margin-top: -262px;
+}
+
+/* IMPRESSUM */
+
+.impressum p {
+  margin: 16px 0;
+}
+
+.impressum__shapes {
+  position: absolute;
+  left: 180px;
+  max-width: 240px;
+  min-height: 100px;
+}
+
+.impressum__circle {
+  background-color: var(--lavender);
+  border-radius: 50%;
+  min-height: 142px;
+  min-width: 142px;
+  position: absolute;
+  left: 260px;
+}
+
+.impressum__content {
+  margin-top: 14px;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 1036px) {
+  /* BASE */
+  main {
+    width: 976px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 50px;
+    line-height: 1.08;
+  }
+
+  .cta-button, .secondary-button {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .visible__desktop {
+    display: block !important;
+  }
+
+  .visible__mobile {
+    display: none !important;
+  }
+
+  /* HEADER */
+  .header {
+    width: 976px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  .header__logo img {
+    max-height: 62px;
+  }
+
+  .header__logo img:hover {
+    transform: scale(0.95);
+  }
+
+  .header__burger {
+    display: none;
+  }
+
+  .header .overlay {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+  }
+
+  .header__close {
+    display: none;
+  }
+
+  .header .overlay .header {
+    display: none;
+  }
+
+  .header__nav-menu {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .header__nav-menu li {
+    margin: 0;
+  }
+
+  .header__nav-menu li:hover {
+    transform: scale(0.95);
+    color: var(--hover);
+  }
+
+  /* FOOTER */
+
+  .footer {
+    flex-direction: row;
+    gap: 100px;
+  }
+
+  footer {
+    padding-bottom: 24px;
+  }
+
+  .footer-wrap {
+    width: 976px;
+    margin: 0 auto;
+  }
+
+  .footer-meta {
+    flex-direction: row;
+  }
+
+  .footer-separator {
+    margin: 80px auto 24px auto;
+  }
+
+  .footer-copy {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 16px;
+  }
+
+  .footer-copy p {
+    align-self: center;
+    width: fit-content;
+  }
+
+  .footer-copy br {
+    display: none;
+  }
+
+  .footer-legal, .footer-copy p {
+    margin: 0;
+  }
+
+  /*  HERO */
+
+  .hero {
+    display: flex;
+    padding-left: 70px;
+    padding-top: 58px;
+    margin: 0 -70px;
+  }
+
+  .hero__content {
+    flex-basis: 50%;
+    margin-top: 27px;
+  }
+
+  .hero__image {
+    order: 2;
+    margin-right: 49px;
+    max-width: 612px;
+  }
+
+  /* INTRO */
+
+  .intro {
+    display: flex;
+    gap: 54px;
+  }
+
+  .intro__image {
+    flex-basis: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .intro__content {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* SEVICES */
+
+  .services-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .services {
+    margin-top: -17px;
+  }
+
+  /* SLIDER */
+
+  #slider {
+    margin-top: -65px;
+  }
+  
+  .owl-carousel .owl-stage-outer {
+    height: 490px;
+    padding-top: 30px;
+  }
+
+  .slide {
+    flex-direction: row;
+    margin-top: 83px;
+    overflow-y: visible !important;
+    padding: 0;
+    max-height: 310px;
+  }
+  
+  .owl-stage-outer {
+    overflow-x: hidden;
+    overflow-y: visible !important;
+  }
+
+  .item {
+    overflow: visible;
+  }
+
+  .slide * {
+    text-align: left;
+  }
+
+  .owl-carousel .item {
+    height: 310px;
+}
+
+  .slide__image {
+    order: 2;
+    margin-top: -68px;
+    margin-right: 18px;
+    bottom: 0;
+  }
+
+  #slider.owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+    height: 442px;
+    max-width: initial;
+  }
+
+  .slide__content {
+    flex-basis: 50%;
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  .slide__content h5 {
+    margin-bottom: 20px;
+    width: 480px;
+    margin-right: -165px;
+    margin-left: 0;
+  }
+
+  .slide__text {
+    padding: 0;
+
+  }
+
+  .owl-dots {
+    left: 60px;
+    bottom: 147px;
+  }
+
+  .owl-nav {
+    margin: 0 -70px !important;
+  }
+
+  /* PAGES */
+
+  .pages {
+    display: flex;
+    gap: 35px;
+    margin-top: 40px;
+        z-index: 1;
+  }
+
+  .pages__image {
+    order: 2;
+    flex-basis: 50%;
+    margin-right: -44px;
+  }
+
+  .pages__content {
+    flex-basis: 51%;
+  }
+
+  .pages__content h2 {
+    max-width: 495px;
+  }
+
+  .pages__text p {
+    min-width: 430px;
+  }
+
+  .pages__text-pages p {
+    max-width: 430px;
+  }
+
+  .pages__text h2 {
+    margin-bottom: 30px;
+  }
+
+  .pages__circle {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -200px;
+  }
+
+  .pages__shapes {
+    max-width: fit-content;
+  }
+
+  /* circles color */
+
+  .pages__circle-verkauf {
+    background-color: var(--verkauf);
+    position: absolute;
+  }
+
+  .pages__circle-werkstatt {
+    background-color: var(--werkstatt);
+  }
+
+  .pages__circle-leasing {
+    background-color: var(--leasing);
+  }
+
+  .pages__circle-kinderrad_abo {
+    background-color: var(--kinderrad);
+  }
+
+  .pages__circle-impressum, .impressum__circle {
+    background-color: var(--lavender);
+  }
+
+  /* VERKAUF */
+
+  .bike-types {
+    position: absolute;
+    left: 460px;
+    top: 440px;
+  }
+
+  .main__verkauf {
+    overflow: visible;
+  }
+
+  .footer__verkauf {
+    margin-top: 338px;
+  }
+
+  .pages__text-verkauf {
+    max-width: 437px;
+  }
+
+  /* WERKSTATT */
+
+  .pages__circle-werkstatt__left {
+    width: 213px;
+    height: 213px;
+    top: 430px;
+  }
+
+  .pages__circle-werkstatt__left + img {
+    position: relative;
+    left: -120px;
+    top: -250px;
+    margin-bottom: -203px;
+  }
+
+  .pages__circle-werkstatt__right {
+    width: 275px;
+    height: 275px;
+    right: -180px;
+  }
+
+  /* LEASING */
+
+  .pages__circle-leasing__right {
+    width: 208px;
+    height: 208px;
+    right: -75px;
+    top: -15px;
+  }
+
+  .pages__circle-leasing + img {
+    position: relative;
+    top: -550px;
+    left: -175px;
+    margin-bottom: -186px;
+  }
+
+  .pages__circle-leasing__right + img {
+    top: -563px;
+    left: 1025px;
+    margin-bottom: -290px;
+  }
+
+  /* KINDERRAD-ABO */
+
+  .cta__kinderrad-abo {
+    flex-direction: row;
+    margin-top: -18px;
+  }
+
+  .pages__circle-kinderrad_abo + img {
+    position: absolute;
+    top: 40px;
+    right: -124px;
+    z-index: 1;
+  } 
+
+  .pages__circle-kinderrad_abo__right {
+    right: -150px;
+    top: 320px;
+  }
+
+  .pages__text-kinderrad_abo {
+    max-width: 461px;
+  }
+
+  /* IMPRESSUM */
+
+  .impressum__content {
+    margin-top: 40px;
+    min-height: 500px;
+  }
+
+  .impressum__circle {
+    width: 398px;
+    height: 398px;
+    left: 790px;
+    top: 120px;
+  }
+
+  .impressum__shapes {
+    left: 210px;
+    top: 30px;
+  }
+
+  .secondary-button {
+    margin-top: 48px;
+  }
+}
+@media only screen and (min-width: 1036px) and (max-width: 1110px ) {
+  main {
+    width: auto;
+}
+  .hero {
+    margin: 0;
+}
+  .owl-nav {
+    margin: 0 -20px!important;
+  }
+}

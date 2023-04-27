@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-left</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="slide-to-left" transform="translate(-10.000000, -10.000000)">
+            <g id="arrow-left" transform="translate(10.000000, 10.000000)">
+                <path d="M0.785991008,12.0989098 L8.76217807,5.26217807 L16.7383651,12.0989098 C17.3673539,12.6380431 17.4401962,13.584993 16.901063,14.2139818 C16.3956256,14.8036588 15.5317555,14.9045351 14.9074753,14.4706092 L14.785991,14.3766796 L8.76217807,9.21279474 L2.73836513,14.3766796 C2.14868816,14.882117 1.2795531,14.8496853 0.728982555,14.3253862 L0.623293164,14.2139818 C0.117855765,13.6243048 0.150287485,12.7551698 0.674586586,12.2045992 L0.785991008,12.0989098 Z" id="Path" fill="#DAD9FC" fill-rule="nonzero" transform="translate(8.762178, 10.000000) scale(-1, 1) rotate(90.000000) translate(-8.762178, -10.000000) "></path>
+                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
